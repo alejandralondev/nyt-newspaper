@@ -1,0 +1,267 @@
+*{
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    height: 10.5rem;
+    border: .1rem solid lightgray;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    text-align: left;
+}
+div span{
+    text-align: left;
+    margin-left: auto;
+}
+.date{
+    margin-top: 2rem;
+}
+.leftheader{
+    float: left;
+    text-align: left;
+    width: 33%;
+    height: 8rem;
+}
+.middleheader{
+   float: left;
+   width: 33%;
+   height: 8rem;
+   margin-left: auto;
+   margin-right: auto;
+}
+.topnav li{
+    list-style-type: none;
+    margin-left: 2rem;
+    float:left;
+    font-size: .8rem;
+}
+.topnav img{
+    width: 5%;
+    height: 1.6rem;
+    float: left;
+    margin-left: 1rem;
+}
+.nytheader{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.rightheader{
+    float: left;
+    width: 33%;
+    height: 8rem;
+    text-align: right;
+}
+.rightheader form{
+    text-align: right;
+    margin-left: 1rem;
+    float: right;
+}
+.mainnav li{
+    list-style: none;
+    float: left;
+    width: 5%;
+    text-align: center;
+}
+.hamburger, .magnifying{
+    width: 2rem;
+    height: 2rem;
+}
+.mainnavlist{
+    height: 3rem;
+}
+.moon, .up{
+    width: 5%;
+    height: 1.8rem;
+}
+.ugh{
+    text-align: right;
+    display: block;
+}
+.ugh2{
+    display: block;
+}
+.mainnavlist li{
+    border-bottom: lightgrey solid .1rem;
+    padding-bottom: 1rem;
+}
+.leftmain{
+    width: 65%;
+    height: 80rem;
+    border-bottom: .1rem black solid;
+    border-right: .1rem black solid;
+    float: left;
+}
+.rightmain{
+    width: 34%;
+    height: 80rem;
+    border-bottom: lightgray .1rem solid;
+    float: right;
+}
+.topmain{
+    height: 60%;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+.bottommain{
+    height: 35%;
+}
+.leftarticles{
+    width: 33%;
+    float: left;
+}
+.leftarticles1{
+    height: 100%;
+}
+.left1{
+    height: 40%;
+    border-bottom: 1px lightgrey solid;
+}
+.left2{
+    border-bottom: .1rem solid lightgray;
+}
+.left2, .left3{
+    height: 30%;
+}
+
+.left3{
+    height: 20%;
+}
+.rightimgsection{
+    text-align: right;
+    float: right;
+    width: 67%;
+    height: 100%;
+}
+.mainimg{
+    width: 94%;
+    height: 75%;
+    margin-right: 2rem;
+    margin-top: 1.25rem;
+}
+.imgscroll{
+    width: 10%;
+    height: 5%;
+}
+.leftarticles2{
+    height: 100%;
+}
+.bottomleftarticle1{
+    border-bottom: .1rem solid lightgray;
+    height: 50%;
+}
+.bottomleftarticle2{
+    height: 50%;
+}
+.minread{
+    color: black;
+    font-weight: lighter;
+    font-size: .8rem;
+}
+.bottomimg{
+    width: 63%;
+    height: 93%;
+    margin-right: 2rem;
+    margin-top: 1.25rem;
+    float: right;
+}
+.hoursinmadrid{
+    height: 35%;
+    border-bottom: .1rem solid lightgray;
+}
+.rightsecondsection{
+    height: 30%
+}
+.thewicked{
+    height: 15%;
+    border-top: solid black .1rem;
+}
+.indefence{
+    height: 20%;
+    border-top: lightgray .1rem solid;
+}
+.madrid{
+    width: 90%;
+    height: 70%;
+    margin-top: 1.25rem;
+}
+.hoursinmadrid p{
+    margin-right: 1rem;
+}
+.rightsecondsection1, .rightsecondsection2{
+    border-right: .1rem solid lightgray;
+    height: 90%;
+    width: 50%;
+    float: left;
+}
+.rightimg{
+    width: 90%;
+    height: 50%;
+    float: left;
+    margin: 1rem 1rem;
+}
+.rightsecondsection1 h4, .rightsecondsection1 span, .rightsecondsection2 span, .rightsecondsection2 h4 {
+    margin: 1rem 1rem;
+}
+.author{
+    width: 20%;
+    height: 38%;
+    float: right;
+    margin: 1rem 1rem;
+    margin-top: -6rem;
+}
+.thewicked h3{
+    width: 70%;
+    margin-right: 4rem;
+}
+.jk{
+    width: 40%;
+    height: 80%;
+    float: right;
+    margin-top: -4rem;
+}
+@media (max-width: 1033px){
+    .mainnav li{
+        visibility: hidden;
+    }
+}
+@media (max-width: 950px) {
+    .rightmain{
+        width: 100%;
+    }
+    .leftmain{
+        width: 100%;
+    }
+}
+@media (max-width: 520px){
+    .leftmain img{
+        display: none;
+    }
+    .leftarticles{
+        width: 100%;
+    }
+    .leftmain{
+        height: 40rem;
+    }
+    .rightimgsection p{
+        display: none;
+    }
+    .ugh, .ugh2{
+        display: none;
+    }
+    .middleheader{
+        width: 35%;
+        float: left;
+    }
+    .rightheader{
+        width: 30%;
+    }
+    .topmain{
+        border-bottom: none;
+    }
+}
